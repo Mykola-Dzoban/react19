@@ -1,0 +1,12 @@
+.photosWrapper{
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photosWrapper img{
+  width: 300px;
+  object-fit: cover;
+}

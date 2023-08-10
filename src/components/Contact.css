@@ -1,0 +1,41 @@
+.user-contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  width: 300px;
+  color:rgb(20, 60, 61);
+  font-weight: 700;
+  background: transparent;
+  border: 1px solid #000;
+}
+.user-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.userPhoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #8284f3;
+  border-radius: 50%;
+}
+.phonePhoto{
+  width: 15px;
+  height: 15px;
+  transition: all 0.6s;
+  animation: shake 0.6s infinite ease;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  from{
+    transform: rotate(-5deg);
+  }
+  to{
+    transform: rotate(5deg);
+  }
+}

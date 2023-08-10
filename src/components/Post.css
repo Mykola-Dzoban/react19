@@ -1,0 +1,79 @@
+
+.post{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #454953;
+  border-radius: 10px;
+}
+
+.authorInfo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #454953;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.authorPhoto{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.authorName{
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: aliceblue;
+}
+.authorNick, .publicDate{
+  font-size: 0.9rem;
+  color: rgb(174, 177, 180);
+}
+
+.content{
+  padding: 10px;
+}
+
+.postPhoto{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.postText{
+  text-align: left;
+  font-size: 1.4rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.content__additional-buttons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.content__additional-buttons span{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.content__additional-buttons span img{
+  width: 30px;
+  height: 30px;
+  background: #454953;
+  padding: 5px;
+  border-radius: 50%;
+}
+.content__additional-buttons>span>span{
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .post{
+    width: 100%;
+  }
+}
